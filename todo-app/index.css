@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input:focus, textarea:focus, textarea::-webkit-input-placeholder {
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+input:focus, textarea:focus, textarea:-ms-input-placeholder {
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+input:focus, textarea:focus, textarea::-ms-input-placeholder {
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+input:focus, textarea:focus, textarea::placeholder {
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+.container .input-title {
+  border: 1px solid gray;
+  border-bottom: none;
+  padding: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #d7d6d6;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container .form-section {
+  border: 1px solid gray;
+  background-color: #eeeded;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.container .form-section label {
+  margin-left: 10%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.container .form-section input {
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.container .form-section textarea {
+  resize: none;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.container .todos-section {
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #eeeded;
+  padding: 10px;
+}
+
+.container .todos-section .todo-item {
+  padding: 2px;
+}
+
+.container .todos-section .todo-item .todo-title-div {
+  border: 1px solid gray;
+  padding: 10px;
+  padding-right: 15px;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+}
+
+.container .todos-section .todo-item .todo-title-div .todo-title {
+  margin-right: auto;
+}
+
+.container .todos-section .todo-item .todo-title-div .title-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container .todos-section .todo-item .todo-body {
+  background-color: white;
+  border: 1px solid gray;
+  border-top: none;
+  max-height: 100px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  overflow: hidden;
+}
+
+.container .todos-section .todo-item .todo-body .todo-body-content {
+  padding: 10px;
+}
+
+.container .todos-section .todo-item-close .todo-body {
+  max-height: 0;
+}
+/*# sourceMappingURL=index.css.map */
